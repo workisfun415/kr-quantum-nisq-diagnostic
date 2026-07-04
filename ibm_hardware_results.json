@@ -1,0 +1,137 @@
+{
+  "backend": "ibm_fez",
+  "timestamp": "2026-04-16 18:47:04",
+  "shots": 4096,
+  "ghz_hardware": {
+    "2": {
+      "fidelity": 0.869873046875,
+      "infidelity": 0.130126953125
+    },
+    "3": {
+      "fidelity": 0.8642578125,
+      "infidelity": 0.1357421875
+    },
+    "4": {
+      "fidelity": 0.8115234375,
+      "infidelity": 0.1884765625
+    },
+    "5": {
+      "fidelity": 0.8037109375,
+      "infidelity": 0.1962890625
+    },
+    "6": {
+      "fidelity": 0.748046875,
+      "infidelity": 0.251953125
+    },
+    "7": {
+      "fidelity": 0.725341796875,
+      "infidelity": 0.274658203125
+    },
+    "8": {
+      "fidelity": 0.694091796875,
+      "infidelity": 0.305908203125
+    }
+  },
+  "ghz_simulator": {
+    "2": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "3": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "4": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "5": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "6": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "7": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "8": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    }
+  },
+  "depth_hardware": {
+    "1": {
+      "fidelity": 0.84423828125,
+      "infidelity": 0.15576171875
+    },
+    "2": {
+      "fidelity": 0.845703125,
+      "infidelity": 0.154296875
+    },
+    "3": {
+      "fidelity": 0.83544921875,
+      "infidelity": 0.16455078125
+    },
+    "5": {
+      "fidelity": 0.837890625,
+      "infidelity": 0.162109375
+    },
+    "8": {
+      "fidelity": 0.82958984375,
+      "infidelity": 0.17041015625
+    },
+    "10": {
+      "fidelity": 0.833251953125,
+      "infidelity": 0.166748046875
+    },
+    "15": {
+      "fidelity": 0.834716796875,
+      "infidelity": 0.165283203125
+    },
+    "20": {
+      "fidelity": 0.83740234375,
+      "infidelity": 0.16259765625
+    }
+  },
+  "depth_simulator": {
+    "1": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "2": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "3": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "5": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "8": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "10": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "15": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    },
+    "20": {
+      "fidelity": 1.0,
+      "infidelity": 0.0
+    }
+  },
+  "kr_fit": {
+    "alpha": 0.022052348451755716,
+    "R2": 0.47150769931484826
+  }
+}

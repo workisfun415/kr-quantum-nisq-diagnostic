@@ -1,0 +1,536 @@
+{
+  "timestamp": "2026-04-16 19:54:55",
+  "shots": 4096,
+  "n_qubits_depth": 5,
+  "coherent_eps": 0.05,
+  "backends": {
+    "ibm_fez": {
+      "backend": "ibm_fez",
+      "num_qubits": 156,
+      "exp1_coherent": {
+        "1": {
+          "fidelity": 0.44384765625,
+          "infidelity": 0.55615234375,
+          "job_id": "d7gf2ec93s0c738rfflg"
+        },
+        "4": {
+          "fidelity": 0.383056640625,
+          "infidelity": 0.616943359375,
+          "job_id": "d7gf2hq2khts739oe10g"
+        },
+        "8": {
+          "fidelity": 0.286376953125,
+          "infidelity": 0.713623046875,
+          "job_id": "d7gf2k493s0c738rffsg"
+        },
+        "16": {
+          "fidelity": 0.20361328125,
+          "infidelity": 0.79638671875,
+          "job_id": "d7gf2mjjne2c7392q510"
+        },
+        "32": {
+          "fidelity": 0.028076171875,
+          "infidelity": 0.971923828125,
+          "job_id": "d7gf2onb91ec73atdrhg"
+        },
+        "64": {
+          "fidelity": 0.0,
+          "infidelity": 1.0,
+          "job_id": "d7gf2r7b91ec73atdrk0"
+        },
+        "128": {
+          "fidelity": 0.296142578125,
+          "infidelity": 0.703857421875,
+          "job_id": "d7gf2ta2khts739oe1cg"
+        }
+      },
+      "exp2_clifford": {
+        "1": {
+          "fidelity": 0.30078125,
+          "infidelity": 0.69921875,
+          "job_id": "d7gf30bjne2c7392q5dg"
+        },
+        "2": {
+          "fidelity": 0.23388671875,
+          "infidelity": 0.76611328125,
+          "job_id": "d7gf32jjne2c7392q5hg"
+        },
+        "4": {
+          "fidelity": 0.126953125,
+          "infidelity": 0.873046875,
+          "job_id": "d7gf34rjne2c7392q5lg"
+        },
+        "8": {
+          "fidelity": 0.0458984375,
+          "infidelity": 0.9541015625,
+          "job_id": "d7gf37a2khts739oe1p0"
+        },
+        "16": {
+          "fidelity": 0.082275390625,
+          "infidelity": 0.917724609375,
+          "job_id": "d7gf39k93s0c738rfgm0"
+        },
+        "32": {
+          "fidelity": 0.05712890625,
+          "infidelity": 0.94287109375,
+          "job_id": "d7gf3c493s0c738rfgp0"
+        },
+        "64": {
+          "fidelity": 0.023193359375,
+          "infidelity": 0.976806640625,
+          "job_id": "d7gf3eq2khts739oe220"
+        }
+      },
+      "exp3_ghz": {
+        "2": {
+          "fidelity": 0.6318359375,
+          "infidelity": 0.3681640625,
+          "job_id": "d7gf3grjne2c7392q64g"
+        },
+        "3": {
+          "fidelity": 0.527587890625,
+          "infidelity": 0.472412109375,
+          "job_id": "d7gf3j3jne2c7392q690"
+        },
+        "4": {
+          "fidelity": 0.485107421875,
+          "infidelity": 0.514892578125,
+          "job_id": "d7gf3lfb91ec73atdskg"
+        },
+        "5": {
+          "fidelity": 0.530029296875,
+          "infidelity": 0.469970703125,
+          "job_id": "d7gf3ni2khts739oe2dg"
+        },
+        "6": {
+          "fidelity": 0.48828125,
+          "infidelity": 0.51171875,
+          "job_id": "d7gf3ps93s0c738rfhag"
+        },
+        "7": {
+          "fidelity": 0.44921875,
+          "infidelity": 0.55078125,
+          "job_id": "d7gf3rvb91ec73atdstg"
+        },
+        "8": {
+          "fidelity": 0.2001953125,
+          "infidelity": 0.7998046875,
+          "job_id": "d7gf3u22khts739oe2kg"
+        },
+        "9": {
+          "fidelity": 0.0615234375,
+          "infidelity": 0.9384765625,
+          "job_id": "d7gf4022khts739oe2ng"
+        },
+        "10": {
+          "fidelity": 0.0625,
+          "infidelity": 0.9375,
+          "job_id": "d7gf43nb91ec73atdt6g"
+        }
+      },
+      "exp4_amplification": {
+        "1": {
+          "fidelity": 0.120849609375,
+          "infidelity": 0.879150390625,
+          "effective_depth": 10,
+          "job_id": "d7gf45vb91ec73atdta0"
+        },
+        "2": {
+          "fidelity": 0.01611328125,
+          "infidelity": 0.98388671875,
+          "effective_depth": 20,
+          "job_id": "d7gf48c93s0c738rfhsg"
+        },
+        "3": {
+          "fidelity": 0.024658203125,
+          "infidelity": 0.975341796875,
+          "effective_depth": 30,
+          "job_id": "d7gf4arjne2c7392q7a0"
+        },
+        "4": {
+          "fidelity": 0.02294921875,
+          "infidelity": 0.97705078125,
+          "effective_depth": 40,
+          "job_id": "d7gf4di2khts739oe390"
+        }
+      },
+      "exp5_echo": {
+        "1": {
+          "fidelity": 0.41015625,
+          "infidelity": 0.58984375,
+          "job_id": "d7gf4hfb91ec73atdtng"
+        },
+        "2": {
+          "fidelity": 0.369384765625,
+          "infidelity": 0.630615234375,
+          "job_id": "d7gf4l7b91ec73atdtr0"
+        },
+        "4": {
+          "fidelity": 0.380615234375,
+          "infidelity": 0.619384765625,
+          "job_id": "d7gf4oc93s0c738rfie0"
+        },
+        "8": {
+          "fidelity": 0.3388671875,
+          "infidelity": 0.6611328125,
+          "job_id": "d7gf4s493s0c738rfij0"
+        },
+        "16": {
+          "fidelity": 0.345947265625,
+          "infidelity": 0.654052734375,
+          "job_id": "d7gf50vb91ec73atdua0"
+        },
+        "32": {
+          "fidelity": 0.269287109375,
+          "infidelity": 0.730712890625,
+          "job_id": "d7gf54bjne2c7392q890"
+        },
+        "64": {
+          "fidelity": 0.113525390625,
+          "infidelity": 0.886474609375,
+          "job_id": "d7gf5dnb91ec73atdun0"
+        },
+        "128": {
+          "fidelity": 0.00341796875,
+          "infidelity": 0.99658203125,
+          "job_id": "d7gf5hk93s0c738rfjbg"
+        }
+      },
+      "exp6_long": {
+        "10": {
+          "fidelity": 0.06640625,
+          "infidelity": 0.93359375,
+          "job_id": "d7gf5la2khts739oe4mg"
+        },
+        "25": {
+          "fidelity": 0.041015625,
+          "infidelity": 0.958984375,
+          "job_id": "d7gf5o493s0c738rfjkg"
+        },
+        "50": {
+          "fidelity": 0.287109375,
+          "infidelity": 0.712890625,
+          "job_id": "d7gf6j7b91ec73ate000"
+        },
+        "100": {
+          "fidelity": 0.014404296875,
+          "infidelity": 0.985595703125,
+          "job_id": "d7gf6oq2khts739oe5t0"
+        },
+        "200": {
+          "fidelity": 0.014892578125,
+          "infidelity": 0.985107421875,
+          "job_id": "d7gf6t7b91ec73ate0b0"
+        }
+      },
+      "kr_fits": {
+        "exp1_coherent_kr": {
+          "alpha": 0.08520584704826996,
+          "C0": 0.6048470055597723,
+          "R": 4.715571556979319e-18,
+          "R2": 0.43721026935472185,
+          "ok": true
+        },
+        "exp2_clifford_kr": {
+          "alpha": 0.0700208367179638,
+          "C0": 0.7536134358901366,
+          "R": 1.5594627673838346e-11,
+          "R2": 0.7948583270610201,
+          "ok": true
+        },
+        "exp3_ghz_kr": {
+          "alpha": 2.5822194238323686,
+          "C0": 0.001561093002153941,
+          "R": 0.3987603840356754,
+          "R2": 0.9117377768353487,
+          "ok": true
+        },
+        "exp4_amp_kr": {
+          "alpha": 0.07341548417111048,
+          "C0": 0.7593222313199178,
+          "R": 3.786099979673185e-17,
+          "R2": 0.7101639234350605,
+          "ok": true
+        },
+        "exp5_echo_kr": {
+          "alpha": 0.690312329036565,
+          "C0": 0.014906715406099797,
+          "R": 0.5845570854902302,
+          "R2": 0.9746457447898326,
+          "ok": true
+        },
+        "exp6_long_kr": {
+          "alpha": 2.060937358719189,
+          "C0": 1.9147654125661464e-06,
+          "R": 0.8874582847861461,
+          "R2": 0.1511137793628463,
+          "ok": true
+        }
+      }
+    },
+    "ibm_kingston": {
+      "backend": "ibm_kingston",
+      "num_qubits": 156,
+      "exp1_coherent": {
+        "1": {
+          "fidelity": 0.946044921875,
+          "infidelity": 0.053955078125,
+          "job_id": "d7gf71fb91ec73ate0fg"
+        },
+        "4": {
+          "fidelity": 0.88037109375,
+          "infidelity": 0.11962890625,
+          "job_id": "d7gfu1c93s0c738rgfl0"
+        },
+        "8": {
+          "fidelity": 0.71875,
+          "infidelity": 0.28125,
+          "job_id": "d7gfu3a2khts739of1g0"
+        },
+        "16": {
+          "fidelity": 0.291015625,
+          "infidelity": 0.708984375,
+          "job_id": "d7gfu87b91ec73aterqg"
+        },
+        "32": {
+          "fidelity": 0.00390625,
+          "infidelity": 0.99609375,
+          "job_id": "d7gfuajjne2c7392r5mg"
+        },
+        "64": {
+          "fidelity": 0.0,
+          "infidelity": 1.0,
+          "job_id": "d7gfucvb91ec73ates1g"
+        },
+        "128": {
+          "fidelity": 0.145263671875,
+          "infidelity": 0.854736328125,
+          "job_id": "d7gfuinb91ec73ates9g"
+        }
+      },
+      "exp2_clifford": {
+        "1": {
+          "fidelity": 0.921630859375,
+          "infidelity": 0.078369140625,
+          "job_id": "d7ghhda2khts739oh050"
+        },
+        "2": {
+          "fidelity": 0.889892578125,
+          "infidelity": 0.110107421875,
+          "job_id": "d7ghhf493s0c738riff0"
+        },
+        "4": {
+          "fidelity": 0.85546875,
+          "infidelity": 0.14453125,
+          "job_id": "d7ghhh7b91ec73atgqkg"
+        },
+        "8": {
+          "fidelity": 0.769775390625,
+          "infidelity": 0.230224609375,
+          "job_id": "d7ghhj493s0c738rifk0"
+        },
+        "16": {
+          "fidelity": 0.681640625,
+          "infidelity": 0.318359375,
+          "job_id": "d7ghhks93s0c738rifm0"
+        },
+        "32": {
+          "fidelity": 0.504638671875,
+          "infidelity": 0.495361328125,
+          "job_id": "d7ghhpvb91ec73atgqv0"
+        },
+        "64": {
+          "fidelity": 0.3203125,
+          "infidelity": 0.6796875,
+          "job_id": "d7ghhsa2khts739oh0n0"
+        }
+      },
+      "exp3_ghz": {
+        "2": {
+          "fidelity": 0.981201171875,
+          "infidelity": 0.018798828125,
+          "job_id": "d7ghhuc93s0c738rig30"
+        },
+        "3": {
+          "fidelity": 0.96484375,
+          "infidelity": 0.03515625,
+          "job_id": "d7ghi2a2khts739oh0tg"
+        },
+        "4": {
+          "fidelity": 0.966064453125,
+          "infidelity": 0.033935546875,
+          "job_id": "d7ghi422khts739oh100"
+        },
+        "5": {
+          "fidelity": 0.9296875,
+          "infidelity": 0.0703125,
+          "job_id": "d7ghi63jne2c7392t5q0"
+        },
+        "6": {
+          "fidelity": 0.91748046875,
+          "infidelity": 0.08251953125,
+          "job_id": "d7ghi83jne2c7392t5tg"
+        },
+        "7": {
+          "fidelity": 0.8857421875,
+          "infidelity": 0.1142578125,
+          "job_id": "d7ghiaa2khts739oh180"
+        },
+        "8": {
+          "fidelity": 0.8359375,
+          "infidelity": 0.1640625,
+          "job_id": "d7ghicbjne2c7392t670"
+        },
+        "9": {
+          "fidelity": 0.8125,
+          "infidelity": 0.1875,
+          "job_id": "d7ghijc93s0c738rihdg"
+        },
+        "10": {
+          "fidelity": 0.8017578125,
+          "infidelity": 0.1982421875,
+          "job_id": "d7ghilnb91ec73atgsm0"
+        }
+      },
+      "exp4_amplification": {
+        "1": {
+          "fidelity": 0.813720703125,
+          "infidelity": 0.186279296875,
+          "effective_depth": 10,
+          "job_id": "d7ghinc93s0c738rihn0"
+        },
+        "2": {
+          "fidelity": 0.716064453125,
+          "infidelity": 0.283935546875,
+          "effective_depth": 20,
+          "job_id": "d7ghipk93s0c738rihq0"
+        },
+        "3": {
+          "fidelity": 0.611083984375,
+          "infidelity": 0.388916015625,
+          "effective_depth": 30,
+          "job_id": "d7ghirbjne2c7392t790"
+        },
+        "4": {
+          "fidelity": 0.49609375,
+          "infidelity": 0.50390625,
+          "effective_depth": 40,
+          "job_id": "d7ghit3jne2c7392t7dg"
+        }
+      },
+      "exp5_echo": {
+        "1": {
+          "fidelity": 0.93017578125,
+          "infidelity": 0.06982421875,
+          "job_id": "d7ghiv22khts739oh2kg"
+        },
+        "2": {
+          "fidelity": 0.934326171875,
+          "infidelity": 0.065673828125,
+          "job_id": "d7ghj0s93s0c738rii60"
+        },
+        "4": {
+          "fidelity": 0.923583984375,
+          "infidelity": 0.076416015625,
+          "job_id": "d7ghj2jjne2c7392t7k0"
+        },
+        "8": {
+          "fidelity": 0.903076171875,
+          "infidelity": 0.096923828125,
+          "job_id": "d7ghj922khts739oh30g"
+        },
+        "16": {
+          "fidelity": 0.82373046875,
+          "infidelity": 0.17626953125,
+          "job_id": "d7ghjbc93s0c738riii0"
+        },
+        "32": {
+          "fidelity": 0.429931640625,
+          "infidelity": 0.570068359375,
+          "job_id": "d7ghjdfb91ec73atgtmg"
+        },
+        "64": {
+          "fidelity": 0.01513671875,
+          "infidelity": 0.98486328125,
+          "job_id": "d7ghjf493s0c738riimg"
+        },
+        "128": {
+          "fidelity": 0.01611328125,
+          "infidelity": 0.98388671875,
+          "job_id": "d7ghjhfb91ec73atgtr0"
+        }
+      },
+      "exp6_long": {
+        "10": {
+          "fidelity": 0.708984375,
+          "infidelity": 0.291015625,
+          "job_id": "d7ghjj3jne2c7392t8a0"
+        },
+        "25": {
+          "fidelity": 0.64794921875,
+          "infidelity": 0.35205078125,
+          "job_id": "d7ghjl22khts739oh3gg"
+        },
+        "50": {
+          "fidelity": 0.84375,
+          "infidelity": 0.15625,
+          "job_id": "d7ghjn493s0c738rij40"
+        },
+        "100": {
+          "fidelity": 0.038330078125,
+          "infidelity": 0.961669921875,
+          "job_id": "d7ghjp7b91ec73atgu7g"
+        },
+        "200": {
+          "fidelity": 0.025146484375,
+          "infidelity": 0.974853515625,
+          "job_id": "d7ghjr3jne2c7392t8k0"
+        }
+      },
+      "kr_fits": {
+        "exp1_coherent_kr": {
+          "alpha": 0.3419835474959523,
+          "C0": 0.20807743129851378,
+          "R": 5.133878190234989e-19,
+          "R2": 0.7105459116738098,
+          "ok": true
+        },
+        "exp2_clifford_kr": {
+          "alpha": 0.5331811585102785,
+          "C0": 0.07488528728307826,
+          "R": 4.968509980136514e-19,
+          "R2": 0.9974801846740708,
+          "ok": true
+        },
+        "exp3_ghz_kr": {
+          "alpha": 1.6363294506799488,
+          "C0": 0.004882068441492608,
+          "R": 1.826867743825069e-16,
+          "R2": 0.9765966759250667,
+          "ok": true
+        },
+        "exp4_amp_kr": {
+          "alpha": 1.1904007820705786,
+          "C0": 0.004860047346911069,
+          "R": 0.1111822970502906,
+          "R2": 0.9999715111970492,
+          "ok": true
+        },
+        "exp5_echo_kr": {
+          "alpha": 0.6091237000224214,
+          "C0": 0.05824927054917504,
+          "R": 4.290056940452269e-15,
+          "R2": 0.8937627265756987,
+          "ok": true
+        },
+        "exp6_long_kr": {
+          "alpha": 0.7254895024580662,
+          "C0": 0.01989639529793184,
+          "R": 0.11866212518540266,
+          "R2": 0.7040354260398505,
+          "ok": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "timestamp": "2026-07-03 21:23:42",
+  "shots": 4096,
+  "backends": {
+    "primary": "ibm_marrakesh",
+    "secondary": "ibm_sherbrooke"
+  },
+  "h1_temporal_drift": {
+    "description": "5 repeated GHZ-5 runs for temporal stability",
+    "backend": "ibm_marrakesh",
+    "circuit": "GHZ n=5",
+    "runs": [
+      {
+        "run": 1,
+        "timestamp": "21:23:42",
+        "fidelity": 0.927490234375,
+        "infidelity": 0.072509765625,
+        "job_id": "d93tm24ql68s73c8r8qg"
+      },
+      {
+        "run": 2,
+        "timestamp": "21:24:46",
+        "fidelity": 0.930419921875,
+        "infidelity": 0.069580078125,
+        "job_id": "d93tmhtgc6cc73fedjmg"
+      },
+      {
+        "run": 3,
+        "timestamp": "21:25:54",
+        "fidelity": 0.936767578125,
+        "infidelity": 0.063232421875,
+        "job_id": "d93tn37u62ks7395appg"
+      },
+      {
+        "run": 4,
+        "timestamp": "21:27:02",
+        "fidelity": 0.929931640625,
+        "infidelity": 0.070068359375,
+        "job_id": "d93tnk6vtlqs73ftk5r0"
+      },
+      {
+        "run": 5,
+        "timestamp": "21:28:11",
+        "fidelity": 0.943115234375,
+        "infidelity": 0.056884765625,
+        "job_id": "d93to54ql68s73c8rbs0"
+      }
+    ],
+    "mean_infidelity": 0.066455078125,
+    "std_infidelity": 0.005682553330459436,
+    "cv_percent": 8.550969302557624,
+    "drift_detected": true,
+    "stable": false
+  },
+  "h3_noise_amplification": {
+    "description": "Noise amplification via gate folding on ibm_marrakesh",
+    "backend": "ibm_marrakesh",
+    "n_qubits": 5,
+    "data": {
+      "1": {
+        "repetitions": 1,
+        "effective_depth": 30,
+        "fidelity": 0.871826171875,
+        "infidelity": 0.128173828125,
+        "job_id": "d93tokvu62ks7395as60"
+      },
+      "2": {
+        "repetitions": 2,
+        "effective_depth": 50,
+        "fidelity": 0.8095703125,
+        "infidelity": 0.1904296875,
+        "job_id": "d93tpg6vtlqs73ftk900"
+      },
+      "3": {
+        "repetitions": 3,
+        "effective_depth": 70,
+        "fidelity": 0.74609375,
+        "infidelity": 0.25390625,
+        "job_id": "d93tq1mvtlqs73ftk9qg"
+      },
+      "4": {
+        "repetitions": 4,
+        "effective_depth": 90,
+        "fidelity": 0.70947265625,
+        "infidelity": 0.29052734375,
+        "job_id": "d93tqptgc6cc73fedqa0"
+      }
+    },
+    "kr_fit": {
+      "alpha": 0.5985771163304592,
+      "C0": 0.12811938234522227,
+      "R": 1.9995083300900527e-19,
+      "R2": 0.9956392044596138,
+      "ok": true
+    },
+    "kingston_reference": {
+      "alpha": 1.1904,
+      "R2": 1.0
+    }
+  },
+  "h4_shot_noise": {
+    "description": "Shot noise stability on ibm_marrakesh GHZ-5",
+    "backend": "ibm_marrakesh",
+    "data": {
+      "512": {
+        "shots": 512,
+        "fidelity": 0.9375,
+        "infidelity": 0.0625,
+        "job_id": "d93trb4ql68s73c8rhk0"
+      },
+      "1024": {
+        "shots": 1024,
+        "fidelity": 0.93359375,
+        "infidelity": 0.06640625,
+        "job_id": "d93ts3mvtlqs73ftkdg0"
+      },
+      "4096": {
+        "shots": 4096,
+        "fidelity": 0.92822265625,
+        "infidelity": 0.07177734375,
+        "job_id": "d93tsjmvtlqs73ftke7g"
+      }
+    },
+    "mean_infidelity": 0.06689453125,
+    "cv_percent": 5.685314572042785,
+    "stable": false
+  },
+  "h5_depth_n10": {
+    "description": "Depth scaling with n=10 qubits on ibm_marrakesh",
+    "backend": "ibm_marrakesh",
+    "n_qubits": 10,
+    "depth_list": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "data": {
+      "1": {
+        "depth": 1,
+        "fidelity": 0.9560546875,
+        "infidelity": 0.0439453125,
+        "job_id": "d93tt5kql68s73c8rklg"
+      },
+      "2": {
+        "depth": 2,
+        "fidelity": 0.94091796875,
+        "infidelity": 0.05908203125,
+        "job_id": "d93ttv6vtlqs73ftkfvg"
+      },
+      "4": {
+        "depth": 4,
+        "fidelity": 0.93408203125,
+        "infidelity": 0.06591796875,
+        "job_id": "d93tuhuvtlqs73ftkgng"
+      },
+      "8": {
+        "depth": 8,
+        "fidelity": 0.900390625,
+        "infidelity": 0.099609375,
+        "job_id": "d93tv34ql68s73c8rmug"
+      },
+      "16": {
+        "depth": 16,
+        "fidelity": 0.8701171875,
+        "infidelity": 0.1298828125,
+        "job_id": "d93tvr6vtlqs73ftki0g"
+      },
+      "32": {
+        "depth": 32,
+        "fidelity": 0.824951171875,
+        "infidelity": 0.175048828125,
+        "job_id": "d93u0vdgc6cc73fee20g"
+      },
+      "64": {
+        "depth": 64,
+        "fidelity": 0.682373046875,
+        "infidelity": 0.317626953125,
+        "job_id": "d93u1tvu62ks7395b8n0"
+      }
+    },
+    "kr_fit": {
+      "alpha": 0.8876874749439078,
+      "C0": 0.0066800363946866595,
+      "R": 0.04511386525943941,
+      "R2": 0.9908199691495468,
+      "ok": true
+    },
+    "n5_reference": {
+      "alpha": 1.4926,
+      "R2": 0.8999
+    }
+  },
+  "completion_timestamp": "2026-07-03 21:51:04"
+}

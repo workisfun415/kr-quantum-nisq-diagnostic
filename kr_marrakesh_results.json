@@ -1,0 +1,140 @@
+{
+  "backend": "ibm_marrakesh",
+  "timestamp": "2026-07-03 20:47:24",
+  "shots": 4096,
+  "optimization_level": 0,
+  "exp1_ghz_scaling": {
+    "description": "GHZ qubit scaling n=2 to 30",
+    "qubit_list": [
+      2,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "data": {
+      "2": {
+        "n_qubits": 2,
+        "fidelity": 0.97998046875,
+        "infidelity": 0.02001953125,
+        "job_id": "d93sr4kql68s73c8q33g"
+      },
+      "5": {
+        "n_qubits": 5,
+        "fidelity": 0.944091796875,
+        "infidelity": 0.055908203125,
+        "job_id": "d93srkdgc6cc73feccng"
+      },
+      "10": {
+        "n_qubits": 10,
+        "fidelity": 0.83642578125,
+        "infidelity": 0.16357421875,
+        "job_id": "d93ssf5gc6cc73fecesg"
+      },
+      "15": {
+        "n_qubits": 15,
+        "fidelity": 0.733642578125,
+        "infidelity": 0.266357421875,
+        "job_id": "d93st3fu62ks73959la0"
+      },
+      "20": {
+        "n_qubits": 20,
+        "fidelity": 0.39794921875,
+        "infidelity": 0.60205078125,
+        "job_id": "d93sumsql68s73c8q8mg"
+      },
+      "25": {
+        "n_qubits": 25,
+        "fidelity": 0.22802734375,
+        "infidelity": 0.77197265625,
+        "job_id": "d93svaevtlqs73ftj4m0"
+      },
+      "30": {
+        "n_qubits": 30,
+        "fidelity": 0.156494140625,
+        "infidelity": 0.843505859375,
+        "job_id": "d93svvdgc6cc73fecj3g"
+      }
+    },
+    "kr_fit": {
+      "alpha": 1.405486526204778,
+      "C0": 0.007630641579124232,
+      "R": 1.1778374366392623e-16,
+      "R2": 0.9665071017908908,
+      "ok": true
+    }
+  },
+  "exp2_depth_scaling": {
+    "description": "Clifford mirror depth scaling d=1 to 64",
+    "depth_list": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "n_qubits": 5,
+    "data": {
+      "1": {
+        "depth": 1,
+        "fidelity": 0.9541015625,
+        "infidelity": 0.0458984375,
+        "job_id": "d93t0cuvtlqs73ftj63g"
+      },
+      "2": {
+        "depth": 2,
+        "fidelity": 0.935791015625,
+        "infidelity": 0.064208984375,
+        "job_id": "d93t1anu62ks73959qag"
+      },
+      "4": {
+        "depth": 4,
+        "fidelity": 0.957763671875,
+        "infidelity": 0.042236328125,
+        "job_id": "d93t1qnu62ks73959qqg"
+      },
+      "8": {
+        "depth": 8,
+        "fidelity": 0.902099609375,
+        "infidelity": 0.097900390625,
+        "job_id": "d93t2mmvtlqs73ftj8m0"
+      },
+      "16": {
+        "depth": 16,
+        "fidelity": 0.92578125,
+        "infidelity": 0.07421875,
+        "job_id": "d93t36dgc6cc73fecmmg"
+      },
+      "32": {
+        "depth": 32,
+        "fidelity": 0.90087890625,
+        "infidelity": 0.09912109375,
+        "job_id": "d93t3p6vtlqs73ftj9ng"
+      },
+      "64": {
+        "depth": 64,
+        "fidelity": 0.80126953125,
+        "infidelity": 0.19873046875,
+        "job_id": "d93t4dtgc6cc73fecns0"
+      }
+    },
+    "kr_fit": {
+      "alpha": 1.492563510101964,
+      "C0": 0.00027916858711744293,
+      "R": 0.0582123819805286,
+      "R2": 0.8998742521883756,
+      "ok": true
+    }
+  },
+  "fingerprint": {
+    "depth_alpha": 1.492563510101964,
+    "depth_R2": 0.8998742521883756,
+    "ghz_alpha": 1.405486526204778,
+    "ghz_R2": 0.9665071017908908,
+    "note": "Third Heron r2 device fingerprint \u2014 ibm_marrakesh"
+  }
+}

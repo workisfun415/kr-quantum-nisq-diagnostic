@@ -1,0 +1,420 @@
+{
+  "timestamp": "2026-04-16 19:02:52",
+  "configuration": {
+    "ghz_qubits": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "depths": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "shots_default": 4096,
+    "shot_study": [
+      512,
+      1024,
+      4096
+    ],
+    "noise_amp_depths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "n_qubits_depth": 5,
+    "optimization_level": 0
+  },
+  "backends": {
+    "ibm_kingston": {
+      "name": "ibm_kingston",
+      "num_qubits": 156,
+      "exp1_ghz_hardware": {
+        "2": {
+          "fidelity": 0.98291015625,
+          "infidelity": 0.01708984375,
+          "job_id": "d7gea1nb91ec73atcnp0"
+        },
+        "3": {
+          "fidelity": 0.965087890625,
+          "infidelity": 0.034912109375,
+          "job_id": "d7geabi2khts739ocsrg"
+        },
+        "4": {
+          "fidelity": 0.960205078125,
+          "infidelity": 0.039794921875,
+          "job_id": "d7geadjjne2c7392p1d0"
+        },
+        "5": {
+          "fidelity": 0.933837890625,
+          "infidelity": 0.066162109375,
+          "job_id": "d7geagbjne2c7392p1g0"
+        },
+        "6": {
+          "fidelity": 0.919677734375,
+          "infidelity": 0.080322265625,
+          "job_id": "d7geaijjne2c7392p1ig"
+        },
+        "7": {
+          "fidelity": 0.9033203125,
+          "infidelity": 0.0966796875,
+          "job_id": "d7geaks93s0c738red80"
+        },
+        "8": {
+          "fidelity": 0.846435546875,
+          "infidelity": 0.153564453125,
+          "job_id": "d7gean7b91ec73atcofg"
+        },
+        "9": {
+          "fidelity": 0.839599609375,
+          "infidelity": 0.160400390625,
+          "job_id": "d7geapc93s0c738redd0"
+        },
+        "10": {
+          "fidelity": 0.821044921875,
+          "infidelity": 0.178955078125,
+          "job_id": "d7geat22khts739octbg"
+        }
+      },
+      "exp1_ghz_simulator": {
+        "2": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "3": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "4": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "5": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "6": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "7": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "8": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "9": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "10": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        }
+      },
+      "exp2_depth_hardware": {
+        "1": {
+          "fidelity": 0.955810546875,
+          "infidelity": 0.044189453125,
+          "job_id": "d7geavnb91ec73atcoo0"
+        },
+        "2": {
+          "fidelity": 0.908447265625,
+          "infidelity": 0.091552734375,
+          "job_id": "d7geb1i2khts739octgg"
+        },
+        "4": {
+          "fidelity": 0.93798828125,
+          "infidelity": 0.06201171875,
+          "job_id": "d7geb43jne2c7392p24g"
+        },
+        "8": {
+          "fidelity": 0.847412109375,
+          "infidelity": 0.152587890625,
+          "job_id": "d7geb6493s0c738redpg"
+        },
+        "16": {
+          "fidelity": 0.57666015625,
+          "infidelity": 0.42333984375,
+          "job_id": "d7geb8bjne2c7392p290"
+        },
+        "32": {
+          "fidelity": 0.366943359375,
+          "infidelity": 0.633056640625,
+          "job_id": "d7gebas93s0c738redu0"
+        },
+        "64": {
+          "fidelity": 0.456787109375,
+          "infidelity": 0.543212890625,
+          "job_id": "d7gebcvb91ec73atcp5g"
+        }
+      },
+      "exp2_depth_simulator": {
+        "1": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "2": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "4": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "8": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "16": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "32": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "64": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        }
+      },
+      "exp3_noise_amplification": {
+        "1": {
+          "fidelity": 0.801513671875,
+          "infidelity": 0.198486328125,
+          "effective_depth": 10,
+          "job_id": "d7gebf7b91ec73atcp8g"
+        },
+        "2": {
+          "fidelity": 0.7001953125,
+          "infidelity": 0.2998046875,
+          "effective_depth": 20,
+          "job_id": "d7gebha2khts739ocu20"
+        },
+        "3": {
+          "fidelity": 0.58740234375,
+          "infidelity": 0.41259765625,
+          "effective_depth": 30,
+          "job_id": "d7gebl7b91ec73atcpf0"
+        },
+        "4": {
+          "fidelity": 0.46923828125,
+          "infidelity": 0.53076171875,
+          "effective_depth": 40,
+          "job_id": "d7gebn22khts739ocu90"
+        }
+      },
+      "exp4_shot_noise": {
+        "512": {
+          "fidelity": 0.943359375,
+          "infidelity": 0.056640625,
+          "job_id": "d7gebq493s0c738reedg"
+        },
+        "1024": {
+          "fidelity": 0.916015625,
+          "infidelity": 0.083984375,
+          "job_id": "d7gebsa2khts739ocufg"
+        },
+        "4096": {
+          "fidelity": 0.930419921875,
+          "infidelity": 0.069580078125,
+          "job_id": "d7gebuk93s0c738reej0"
+        }
+      },
+      "kr_fit_ghz": {
+        "alpha": 1.540602300626776,
+        "C0": 0.0053452670059630685,
+        "R": 0.0008488787396138609,
+        "R2": 0.974505070971673
+      },
+      "kr_fit_depth": {
+        "alpha": 0.5073939395602667,
+        "C0": 0.07940628613682266,
+        "R": 3.810007876620296e-18,
+        "R2": 0.8129540193095524
+      }
+    },
+    "ibm_fez": {
+      "name": "ibm_fez",
+      "num_qubits": 156,
+      "exp1_ghz_hardware": {
+        "2": {
+          "fidelity": 0.867919921875,
+          "infidelity": 0.132080078125,
+          "job_id": "d7gec0vb91ec73atcpsg"
+        },
+        "3": {
+          "fidelity": 0.85302734375,
+          "infidelity": 0.14697265625,
+          "job_id": "d7gecp7b91ec73atcql0"
+        },
+        "4": {
+          "fidelity": 0.81689453125,
+          "infidelity": 0.18310546875,
+          "job_id": "d7gect22khts739ocvi0"
+        },
+        "5": {
+          "fidelity": 0.78662109375,
+          "infidelity": 0.21337890625,
+          "job_id": "d7gedgjjne2c7392p4sg"
+        },
+        "6": {
+          "fidelity": 0.747802734375,
+          "infidelity": 0.252197265625,
+          "job_id": "d7geds7b91ec73atcrsg"
+        },
+        "7": {
+          "fidelity": 0.710205078125,
+          "infidelity": 0.289794921875,
+          "job_id": "d7geervb91ec73atct1g"
+        },
+        "8": {
+          "fidelity": 0.665771484375,
+          "infidelity": 0.334228515625,
+          "job_id": "d7gefbq2khts739od2e0"
+        },
+        "9": {
+          "fidelity": 0.656005859375,
+          "infidelity": 0.343994140625,
+          "job_id": "d7gefgbjne2c7392p77g"
+        },
+        "10": {
+          "fidelity": 0.63818359375,
+          "infidelity": 0.36181640625,
+          "job_id": "d7gefjbjne2c7392p7bg"
+        }
+      },
+      "exp1_ghz_simulator": {
+        "2": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "3": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "4": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "5": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "6": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "7": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "8": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "9": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "10": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        }
+      },
+      "exp2_depth_hardware": {
+        "1": {
+          "fidelity": 0.81298828125,
+          "infidelity": 0.18701171875,
+          "job_id": "d7gefm7b91ec73atctu0"
+        },
+        "2": {
+          "fidelity": 0.650146484375,
+          "infidelity": 0.349853515625,
+          "job_id": "d7gel93jne2c7392pm60"
+        },
+        "4": {
+          "fidelity": 0.763427734375,
+          "infidelity": 0.236572265625,
+          "job_id": "d7gemcnb91ec73atde5g"
+        },
+        "8": {
+          "fidelity": 0.318603515625,
+          "infidelity": 0.681396484375,
+          "job_id": "d7geoda2khts739odle0"
+        },
+        "16": {
+          "fidelity": 0.141845703125,
+          "infidelity": 0.858154296875,
+          "job_id": "d7geofjjne2c7392ppgg"
+        },
+        "32": {
+          "fidelity": 0.031494140625,
+          "infidelity": 0.968505859375,
+          "job_id": "d7geohvb91ec73atdgdg"
+        },
+        "64": {
+          "fidelity": 0.068603515625,
+          "infidelity": 0.931396484375,
+          "job_id": "d7geok7b91ec73atdgh0"
+        }
+      },
+      "exp2_depth_simulator": {
+        "1": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "2": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "4": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "8": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "16": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "32": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        },
+        "64": {
+          "fidelity": 1.0,
+          "infidelity": 0.0
+        }
+      },
+      "kr_fit_ghz": {
+        "alpha": 0.9073380158951355,
+        "C0": 0.04069849535880824,
+        "R": 0.04573785827509623,
+        "R2": 0.9855354846643304
+      },
+      "kr_fit_depth": {
+        "alpha": 0.32120680884231617,
+        "C0": 0.2834428234212725,
+        "R": 1.6492183742658198e-14,
+        "R2": 0.8114656896451578
+      }
+    }
+  }
+}
